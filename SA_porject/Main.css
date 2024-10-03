@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Itim", cursive;
+    background-image: url(BG2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-height: 130px;
+}
+
+header .logo{
+    padding: 1rem;
+}
+
+header .logo img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: .5px solid rgba(0, 0, 0, .2);
+    border-radius: 80px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+}
+
+.menubar i{
+    left: 2rem;
+    padding: 37px 0px 0px;
+    position: absolute;
+    font-size: 50px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, .55);
+}
+
+.side{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 400px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.side ul{
+    padding-top: 2rem;
+}
+
+.side ul li{
+    padding-top: 1rem;
+    list-style: none;
+}
+
+.side a{
+    color: black;
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 3rem;
+}
+
+.side i{
+    top: -13%;
+    transform: translateY(13%);
+    padding-right: 2rem;
+    font-size: 40px;
+    transition: 0.3s ease;
+}
+
+.btn-close{
+    padding: 2.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.btn-close h2{
+    position: absolute;
+    top: 2.2rem;
+    right: 2rem;
+    font-size: 43px;
+    pointer-events: none;
+}
+
+.btn-close i{
+    position: absolute;
+    top: 2.5rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+}

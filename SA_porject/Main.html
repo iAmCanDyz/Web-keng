@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAB SHOP</title>
+    <link rel="stylesheet" href="Main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    
+    <header>
+        <div class="menubar">
+            <i class='bx bx-menu-alt-left' onclick="openside()"></i>
+        </div>
+        <div class="logo">
+            <img src="Logo.PNG" alt="">
+        </div>
+        <div class="logout">
+            <h1>Logout</h1>
+        </div>
+    </header>
+
+    <div class="side" id="mySide">
+        <div class="btn-close">
+            <i class='bx bx-arrow-back' onclick="closeside()"></i>
+            <h2>Menu</h2>
+        </div>
+        <ul>
+            <li><a href="#"><i class='bx bx-user-circle'></i>Profile</a></li>
+            <li><a href="#">....</a></li>
+            <li><a href="#"><i class='bx bx-cart' ></i>Cart</a></li>
+            <li><a href="#">Chat</a></li>
+            <li><a href="#">Address</a></li>
+        </ul>
+    </div>
+
+
+    <script src="Main.js"></script>
+</body>
+</html>
